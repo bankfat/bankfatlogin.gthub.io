@@ -22,12 +22,12 @@ select{
 .container1 {
   display: block;
   position: relative;
-  padding-left: 25px;
+  padding-left: 20px;
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 22px;
   background-color: #f1f1f1;
-  width: 38%;
+  width: 40%;
   display: flex;
   font-size: 20px;
   margin-bottom: 20px;
