@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบล็อคอินแบงค์</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <form action="/action_page.php">
+  <div class="container">
+    <h1 class="h11">สมัครสมาชิกศึกษาออนไลน์</h1>
+    <p>กรุณากรอกแบบฟอร์มนี้เพื่อสร้างบัญชีผู้ใช้.</p>
+    <hr>
+<label for="name"><b>ชื่อ-สกุล</b></label>
+    <input type="text" placeholder="กรอกชื่อ-สกุล" required>
+
+    <label for="email"><b>อีเมล</b></label>
+    <input type="text" placeholder="example@gmail.com" required>
+
+    <label ><b>รหัสผ่าน</b></label>
+    <input type="text" placeholder="ป้อน รหัสผ่าน" required>
+     <h4 class="a1">รหัสผ่านอย่างน้อย 8 ตัวอักษร</h4>
+
+    <label ><b>ยืนยันรหัสผ่านอีกครั้ง</b></label>
+    <input type="text" placeholder="ยืนยันรหัสผ่านอีกครั้ง"  required>
+   
+    <h1 class="ss"><b>เพศ</b></h1>
+    <div class="bb">
+      <label class="container1">ชาย
+    <input type="radio" name="gender">
+    <label class="container2">หญิง
+   <input type="radio" name="gender">
+    <label class="container2">อื่นๆ
+   <input type="radio" name="gender">
+  
+   </label>
+</label></div>
+
+<h4 class="u2"><b>ระดับการศึกษา</b></h4>
+  <select>
+    <option value="1">-- เลือกระดับการศึกษา --</option>
+    <option value="2">อนุบาล</option>
+    <option value="3">ประถมศึกษา</option>
+    <option value="4">มัธยมศึกษาตอนต้น</option>
+    <option value="5">มัธยมศึกษาตอนปลาย / ปวช.</option>
+    <option value="6">ปวส.</option>
+    <option value="7">ปริญญาตรี</option>
+    <option value="8">ปริญญาโท</option>
+    <option value="9">ปริญญาเอก</option>
+</select>
+<div>
+ <h3 class="u1"><b>ความสนใจ</b></h3>
+<input type="checkbox" >
+<label> โปรแกรมมิ่ง</label>
+<input type="checkbox">
+<label>เครือข่าย</label>
+<input type="checkbox" >
+<label> ออกแบบเว็บไซต์</label><br>
+<input type="checkbox" >
+<label> AI</label>
+<input type="checkbox" >
+<label> เท่</label>
+</div>
+
+<h3 class="u1"><b>ที่อยู่</b></h3>
+<textarea placeholder="กรอกที่อยู่ปันจุบัน"></textarea>
+
+    <p>การสร้างบัญชีหมายความว่าคุณยอมรับของเรา <a href="#">ข้อกำหนดและความเป็นส่วนตัว</a>.</p>
+
+    <button type="submit" class="registerbtn">ลงทะเบียน</button>
+  </div>
+  
+  <div class="container s1ignin">
+    <p>มีบัญชีอยู่แล้วใช่ไหม? <a href="#">เข้าสู่ระบบ</a>.</p>
+  </div>
+</form>
+</body>
+</html>
